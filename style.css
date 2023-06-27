@@ -1,0 +1,55 @@
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    top: 10%;
+    /* background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; */
+    width: 100%;
+    padding: 20px;
+ 
+  }
+  .all-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5%;
+   flex-wrap: nowrap;
+   flex: 1 1 0;
+}
+
+button{
+    display: block;
+    width: 100%;
+border: 5px solid white;
+    background-color: gray;
+    padding: 25px 50px;
+    font-size: 5rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bolder;
+    flex-basis: auto;
+    max-width:fit-content;
+  
+    
+}
+.text{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: whitesmoke;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
