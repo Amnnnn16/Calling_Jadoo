@@ -41,8 +41,7 @@ function play_sound(key){
             break;
         
         default:
-            var aud1=new Audio("audio/one.mp3");
-            aud1.play();
+           
     }
 }
 function when_pressed(key){
